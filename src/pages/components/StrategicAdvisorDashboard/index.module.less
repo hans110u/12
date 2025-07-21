@@ -1,0 +1,355 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #141418;
+  border-radius: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoIcon {
+  width: 20px;
+  height: 8px;
+  margin-right: 8px;
+}
+
+.logoText {
+  font-size: 24px;
+  font-weight: bold;
+  color: #dadada;
+}
+
+.searchSection {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar {
+  position: relative;
+}
+
+.searchInput {
+  width: 250px;
+  border-radius: 20px;
+  background-color: #25262a;
+  border: 1px solid #0f0f11;
+  padding: 8px 15px;
+  color: #c7c7cb;
+}
+
+.searchIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.searchSuffix {
+  color: #58595d;
+  font-size: 14px;
+}
+
+.navItems {
+  display: flex;
+  margin-left: 20px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  padding: 6px 12px;
+  background-color: #25262a;
+  border-radius: 15px;
+  border: 1px solid #0f0f11;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #2d2e33;
+  }
+}
+
+.navIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.navLabel {
+  font-size: 14px;
+  color: #c7c7cb;
+}
+
+.mainContent {
+  display: flex;
+  gap: 30px;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #191b1e;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  color: #adadaf;
+  margin-bottom: 10px;
+}
+
+.sectionDescription {
+  font-size: 14px;
+  color: #636568;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.favoriteItem {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #25262a;
+}
+
+.favoriteIconGroup {
+  display: flex;
+  margin-right: 10px;
+}
+
+.favoriteIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.favoriteText {
+  font-size: 14px;
+  color: #9fa1a3;
+}
+
+.promptsBadge {
+  display: inline-block;
+  background-color: #25262a;
+  border: 1px solid #0f0f11;
+  border-radius: 13px;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+.badgeText {
+  font-size: 14px;
+  color: #c7c7cb;
+}
+
+.chevron {
+  color: #4f4f51;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.docActions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.docActionIcon {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.documentItem {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.documentIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.documentText {
+  font-size: 14px;
+  color: #b6b6b8;
+}
+
+.contentArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.advisorSection {
+  background-color: #191b1e;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.advisorTitle {
+  font-size: 24px;
+  color: #bbbdc0;
+  margin-bottom: 20px;
+}
+
+.qualitiesList, .missionList, .responseList {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px 0;
+  
+  li {
+    padding: 8px 0;
+    font-size: 14px;
+    color: #d4d6d9;
+    border-bottom: 1px solid #25262a;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.advisorMission {
+  margin: 25px 0;
+}
+
+.responseFormat {
+  background-color: #25262a;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.responseNote {
+  font-size: 14px;
+  color: #636468;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.chatSection {
+  background-color: #161819;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.chatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chatTitleGroup {
+  display: flex;
+  align-items: center;
+}
+
+.chatIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.chatTitle {
+  font-size: 18px;
+  color: #a0a2a3;
+}
+
+.chatActions {
+  display: flex;
+}
+
+.chatActionIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.chatMessages {
+  background-color: #1e2226;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 14px;
+  color: #b1b2b4;
+  line-height: 1.6;
+}
+
+.messageDivider {
+  border-color: #202224;
+  margin: 20px 0;
+}
+
+.messageInfo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.showFullMessage {
+  color: #a3a7b9;
+  cursor: pointer;
+}
+
+.messageTime {
+  color: #7e7f83;
+}
+
+.inputArea {
+  background-color: #191b1e;
+  border-radius: 18px;
+  padding: 15px;
+}
+
+.addContext {
+  display: block;
+  color: #4a4c4f;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.inputPrompt {
+  color: #606265;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.mentionIcon {
+  width: 20px;
+  height: 20px;
+}
